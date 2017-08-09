@@ -1,0 +1,32 @@
+.headerBlock{
+	background-color: $primary-color;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+}
+
+.bodyBlock{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	h1,h2{
+		font-weight: bold;
+	}
+}
+
+.footerBlock{
+	background-color: $primary-color;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.Hao-image {
+      display: block;
+      margin: auto;
+      border-radius: 50%;
+      padding: rem-calc(15);
+      border: 2px solid $primary-color;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
