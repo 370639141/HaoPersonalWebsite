@@ -3,23 +3,23 @@
 
 	<!-- Begin of header block -->
 	<div class="grid-x grid-margin-x headerBlock">
-		<div class="large-6 medium-6 cell">
-			<img src="http://placehold.it/178x40" width="178" >
+		<div class="large-6 medium-4 cell">
+			<center><img src="http://placehold.it/178x40" width="178" ></center>
 		</div>
-		<div class="large-6 medium-6 cell" >
-		{{>menu-hover-lines}}
+		<div class="large-6 medium-8 cell">
+			{{>menu-hover-lines-home}}
 	 	</div>
 	</div>
 	<!-- End of header block -->
 
-
+	<div class="grid-container">
 	<div class="grid-x grid-margin-x bodyBlock">
-		<div class="large-6 medium-6 cell">
-			<div class="card-user-avatar">
+		<div class="large-6 medium-12 cell">
+			<div>
     			<img src="http://placehold.it/350x350" alt="" class="Hao-image">
   			</div>
 		</div>
-		<div class="large-6 medium-6 cell">
+		<div class="large-6 medium-12 cell introduce">
 			<div>
 				<h1>I'm Hao Yu. </h1>
 				<h2>CS&Math student at Penn State</h2>
@@ -42,10 +42,12 @@
 			</div>
 		</div>
 	</div>
-
-	<div>
-		
 	</div>
+	
+
+<!-- 	<div>
+		{{>fullscreen-image-slider}}
+	</div> -->
 
 	<div class="footerBlock">
 		{{>rounded-social-buttons}}

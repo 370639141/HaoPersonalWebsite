@@ -8,10 +8,13 @@
 .bodyBlock{
 	padding-top: 60px;
 	padding-bottom: 60px;
+
 	h1,h2{
 		font-weight: bold;
 	}
 }
+
+
 
 .footerBlock{
 	background-color: $primary-color;
@@ -30,3 +33,20 @@
         transform: scale(1.1);
       }
     }
+
+
+.introduce{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.projectBlock{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.thumbnail{
+	&:hover {
+        transform: scale(1.1);
+      }
+}
