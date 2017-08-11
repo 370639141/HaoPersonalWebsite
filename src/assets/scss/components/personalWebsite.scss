@@ -14,6 +14,9 @@
 	}
 }
 
+.menu{
+	padding-top: 20px;
+}
 
 
 .footerBlock{
@@ -31,6 +34,7 @@
       border-radius: 50%;
       padding: rem-calc(15);
       border: 2px solid $primary-color;
+      max-width: 80%;
 
       &:hover {
         transform: scale(1.1);
@@ -41,6 +45,7 @@
 .introduce{
 	padding-left: 20px;
 	padding-right: 20px;
+	padding-top: 30px;
 }
 
 
